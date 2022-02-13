@@ -1,0 +1,34 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "portafolio Harold version 2022",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/haroldhavi/PortafolioHarold2022.git"
+  },
+  "author": "Harold Virguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haroldhavi/PortafolioHarold2022/issues"
+  },
+  "homepage": "https://github.com/haroldhavi/PortafolioHarold2022#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "webpack": "^5.68.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.6.0",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
